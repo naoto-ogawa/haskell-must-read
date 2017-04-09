@@ -23,4 +23,8 @@ OK --> (a b) . (c d)
 NG -->  a (b . c) d
 ```
 
+## Type Familly
+
+### Injectivity
+* http://stackoverflow.com/questions/36268734/type-families-causes-ambiguous-variable-error
 
