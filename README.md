@@ -26,5 +26,22 @@ NG -->  a (b . c) d
 ## Type Familly
 
 ### Injectivity
-* http://stackoverflow.com/questions/36268734/type-families-causes-ambiguous-variable-error
+* http://stackoverflow.com/questions/36268734/type-families-causes-ambiguous-variable-erroro
+
+
+## Monad
+
+### MonadBaseControl
+* http://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for
+* http://www.yesodweb.com/book/monad-control
+
+
+
+
+
+# Servant-must-read
+
+## How to do ..
+* Access Request Headers
+  * http://stackoverflow.com/questions/36307378/how-can-i-get-access-to-http-headers-in-servant
 
