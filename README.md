@@ -41,7 +41,10 @@ NG -->  a (b . c) d
 ### GHC-mod
 * http://stackoverflow.com/questions/30518927/how-to-avoid-main-is-not-defined-in-module-main-when-using-syntastic
 
+## Cabal
 
+### How to configure for testing
+* http://blog.pangyanhan.com/haskell/2013-12-22-cabal-installing-test-dependencies.html
 
 
 
