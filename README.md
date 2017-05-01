@@ -50,7 +50,25 @@ NG -->  a (b . c) d
 
 # Servant-must-read
 
+## articles
+* Servant, Type Families, and Type-level Everything A look at advanced GHC features used in Servant
+ * https://arow.info/blog/posts/2015-07-10-servant-intro.html
+* Implementing a minimal version of haskell-servant
+ * https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant
+## migration guide
+* to 0.7
+ * https://github.com/klappvisor/haskell-telegram-api/issues/21
+
+
 ## How to do ..
 * Access Request Headers
   * http://stackoverflow.com/questions/36307378/how-can-i-get-access-to-http-headers-in-servant
+
+
+# quote unquote
+ * :: is pronounced "has type"
+
+
+
+
 
