@@ -67,7 +67,10 @@ NG -->  a (b . c) d
 
 # quote unquote
  * :: is pronounced "has type"
-
+ * Boxed 
+  * Boxed  means that values of that type are represented by a pointer to a heap object.
+ * UnBoxed
+  * An unboxed type, however, is represented by the value itself, no pointers or heap allocation are involved.
 
 
 
