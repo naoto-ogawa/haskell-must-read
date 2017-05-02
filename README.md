@@ -66,12 +66,12 @@ NG -->  a (b . c) d
 
 
 # quote unquote
- * :: is pronounced "has type"
- * Boxed 
+* :: is pronounced "has type"
+* Boxed And UnBoxed 
   * Boxed  means that values of that type are represented by a pointer to a heap object.
- * UnBoxed
   * An unboxed type, however, is represented by the value itself, no pointers or heap allocation are involved.
-
-
-
+* Covariant and Contravariant
+  * Intuitively, a covariant type is produced, and a contravariant type is consumed.
+  * If a function type a -> b appears in a covariant position, then a is in a contravariant position and b is in a covariant position. 
+  * If a function type a -> b appears in a contravariant position, then a is in a covariant position and b is in a contravariant position.
 
