@@ -46,6 +46,9 @@ NG -->  a (b . c) d
 ### How to configure for testing
 * http://blog.pangyanhan.com/haskell/2013-12-22-cabal-installing-test-dependencies.html
 
+## TypeCheck
+* Debug Log
+  * http://stackoverflow.com/questions/30442003/unreadable-quickcheck-log-file-after-a-test-routine
 
 
 # Servant-must-read
@@ -74,4 +77,11 @@ NG -->  a (b . c) d
   * Intuitively, a covariant type is produced, and a contravariant type is consumed.
   * If a function type a -> b appears in a covariant position, then a is in a contravariant position and b is in a covariant position. 
   * If a function type a -> b appears in a contravariant position, then a is in a covariant position and b is in a contravariant position.
+* Ad hoc Parametricity
+  * The purpose of " => x" is to constrain the set of possible types that the x type variable can take.
+* Type classes
+  * Type classes group different types with a common interface.
+  * you can think of a type class as a way to group sets of types that support the same operations.
+
+
 
