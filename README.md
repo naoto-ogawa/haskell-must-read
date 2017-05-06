@@ -36,6 +36,12 @@ NG -->  a (b . c) d
 * http://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for
 * http://www.yesodweb.com/book/monad-control
 
+## Language extentions
+
+### DataKind, PolyKinds
+* http://www.konn-san.com/prog/2013-advent-calendar.html
+
+
 ## GHC
 
 ### GHC-mod
@@ -68,8 +74,13 @@ NG -->  a (b . c) d
   * http://stackoverflow.com/questions/36307378/how-can-i-get-access-to-http-headers-in-servant
 
 
-# quote unquote
-* :: is pronounced "has type"
+# Haskell Quote Unquote 
+* Type 
+  * A Type is a kind of label that every expression has.
+  * A Type is an invariant condition. 
+  * :: is pronounced "has type"
+* Kind
+  * a kind is a type of types
 * Boxed And UnBoxed 
   * Boxed  means that values of that type are represented by a pointer to a heap object.
   * An unboxed type, however, is represented by the value itself, no pointers or heap allocation are involved.
@@ -82,6 +93,9 @@ NG -->  a (b . c) d
 * Type classes
   * Type classes group different types with a common interface.
   * you can think of a type class as a way to group sets of types that support the same operations.
+* data
+  * is [d]efined [a] [t]ype [a]nd (values)
+    * Note that you can defined a type without values.
 
 
 
