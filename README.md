@@ -17,11 +17,28 @@ must-read articles, papers, QAs and so on.
 
 *  https://www.haskell.org/tutorial/functions.html
 > Function application has higher precedence than any infix operator
+ ** Examples
 ```haskell
 a b . c d
 --->
 OK --> (a b) . (c d)
 NG -->  a (b . c) d
+```
+```haskell
+> gcd 5 (5^2)
+5
+> gcd 5 5^2
+25
+> (gcd 5 5)^2
+```
+```haskell
+let f = undefined :: Char -> Char
+let g = undefined :: Char -> Char
+let z x = g (f x)    --> OK
+let z x = g $ f x    --> OK
+let z x = g . f x    --> NG
+let z x = (g . f) x  --> OK
+let z   = g . f      --> OK
 ```
 
 ## Type Familly
