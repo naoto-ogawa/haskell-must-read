@@ -110,6 +110,7 @@ let z   = g . f      --> OK
 * Type classes
   * Type classes group different types with a common interface.
   * you can think of a type class as a way to group sets of types that support the same operations.
+  * Typeclasses are Haskell’s version of interfaces (in languages like Golang or Java).
 * data
   * is [d]efined [a] [t]ype [a]nd (values)
     * Note that you can defined a type without values.
