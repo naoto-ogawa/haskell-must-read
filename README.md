@@ -82,6 +82,8 @@ let z   = g . f      --> OK
  * https://arow.info/blog/posts/2015-07-10-servant-intro.html
 * Implementing a minimal version of haskell-servant
  * https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant
+* Passing a DB connection to handlers in Servant
+ * http://oleg.fi/gists/posts/2017-03-03-servant-and-db.html
 ## migration guide
 * to 0.7
  * https://github.com/klappvisor/haskell-telegram-api/issues/21
