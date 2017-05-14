@@ -10,8 +10,9 @@ must-read articles, papers, QAs and so on.
 
 ## Point Free Style
 
-* http://stackoverflow.com/questions/17585649/composing-function-composition-how-does-work
-** (.) . (.)
+* (.) . (.)
+  * http://stackoverflow.com/questions/17585649/composing-function-composition-how-does-work
+  * http://austinrochford.com/posts/2013-10-21-generalized-composition-in-haskell.html 
 
 ## Function Application vs Function Composition
 
