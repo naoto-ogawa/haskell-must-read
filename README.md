@@ -74,6 +74,11 @@ let z   = g . f      --> OK
 * Debug Log
   * http://stackoverflow.com/questions/30442003/unreadable-quickcheck-log-file-after-a-test-routine
 
+## Language
+* Namespace Conflict
+  * http://stackoverflow.com/questions/42846194/ambiguous-interface
+
+
 
 # Servant-must-read
 
