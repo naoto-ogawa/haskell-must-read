@@ -48,6 +48,10 @@ let z x = (g . f) x  --> OK
 let z   = g . f      --> OK
 ```
 
+## Type Classes
+* [On Type Class Instance Selection](https://hackernoon.com/typeclass-instance-selection-fea1068920e6)
+* [Type Class Patterns and Anti-patterns](Type Class Patterns and Anti-patterns)
+
 ## Type Familly
 
 ### Injectivity
@@ -56,8 +60,9 @@ let z   = g . f      --> OK
 
 ## Monad
 
-### Application of Monad
-* http://blog.aloni.org/posts/extending-monads-for-debugging-in-haskell/
+### Articles
+* [Application of Monad](http://blog.aloni.org/posts/extending-monads-for-debugging-in-haskell/)
+* [Escaping Hell with Monads](https://philipnilsson.github.io/Badness10k/posts/2017-05-07-escaping-hell-with-monads.html)
 
 ### MonadBaseControl
 * http://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for
