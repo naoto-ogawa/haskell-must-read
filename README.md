@@ -56,9 +56,15 @@ let z   = g . f      --> OK
 
 ## Monad
 
+### Application of Monad
+* http://blog.aloni.org/posts/extending-monads-for-debugging-in-haskell/
+
 ### MonadBaseControl
 * http://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for
 * http://www.yesodweb.com/book/monad-control
+
+
+
 
 ## Language extentions
 
@@ -95,6 +101,10 @@ let z   = g . f      --> OK
  * https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant
 * Passing a DB connection to handlers in Servant
  * http://oleg.fi/gists/posts/2017-03-03-servant-and-db.html
+* Error Handling
+ * [servant-checked-exceptions](https://functor.tokyo/blog/2017-05-10-servant-checked-exceptions)
+## Useful QA
+* [Docs explaining how to actually create a full combinator (ex. one to create/store a DB connection)](https://github.com/haskell-servant/servant/issues/704#issuecomment-283396827)
 ## migration guide
 * to 0.7
  * https://github.com/klappvisor/haskell-telegram-api/issues/21
