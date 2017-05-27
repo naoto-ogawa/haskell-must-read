@@ -50,7 +50,7 @@ let z   = g . f      --> OK
 
 ## Type Classes
 * [On Type Class Instance Selection](https://hackernoon.com/typeclass-instance-selection-fea1068920e6)
-* [Type Class Patterns and Anti-patterns](Type Class Patterns and Anti-patterns)
+* [Type Class Patterns and Anti-patterns](https://hackernoon.com/type-class-patterns-and-anti-patterns-efd045c5af66)
 
 ## Type Familly
 
