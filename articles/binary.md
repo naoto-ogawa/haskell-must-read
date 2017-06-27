@@ -39,7 +39,7 @@ serialize the record and write to a file.
 ```haskell
 > Data.ByteString.Lazy.writeFile "memo/foooo.bin" $ encode x1
 > :! ls -al memo/foooo.bin
--rw-r--r--  1 ogawanaoto  staff  21  6 27 18:22 memo/foooo.bin
+-rw-r--r--  1 hoge  staff  21  6 27 18:22 memo/foooo.bin
 ```
 
 deserialize from the file.
@@ -65,7 +65,7 @@ True
 > let c = putWord8 $ fromIntegral .ord $ 'c'
 > Data.ByteString.Lazy.writeFile "memo/abc.bin" $ runPut (a >> b >> c)
 > :! ls -al memo/abc.bin
--rw-r--r--  1 ogawanaoto  staff  3  6 27 18:43 memo/abc.bin
+-rw-r--r--  1 hoge  staff  3  6 27 18:43 memo/abc.bin
 > :! hexdump memo/abc.bin
 0000000 61 62 63
 0000003
