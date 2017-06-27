@@ -59,7 +59,7 @@ True
 
 ## direct use of the binary package
 
-`haskell
+```haskell
 > let a = putWord8 $ fromIntegral .ord $ 'a'
 > let b = putWord8 $ fromIntegral .ord $ 'b'
 > let c = putWord8 $ fromIntegral .ord $ 'c'
