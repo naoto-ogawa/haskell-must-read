@@ -40,6 +40,10 @@ serialize the record and write to a file.
 > Data.ByteString.Lazy.writeFile "memo/foooo.bin" $ encode x1
 > :! ls -al memo/foooo.bin
 -rw-r--r--  1 hoge  staff  21  6 27 18:22 memo/foooo.bin
+
+or
+> encodeFile "memo/foooo.bin" x1
+
 ```
 
 deserialize from the file.
@@ -48,6 +52,9 @@ deserialize from the file.
 x2 <- (Data.ByteString.Lazy.readFile "memo/foooo.bin" >>= return . decode :: IO MyFoo)
 > x2
 MyFoo {a = 2, b = "foooo"}
+
+or
+> x2 <- decodeFile "memo/foooo.bin" :: IO MyFoo
 ```
 
 check equality.
