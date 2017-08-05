@@ -1,11 +1,58 @@
 # haskell-must-read
 must-read articles, papers, QAs and so on.
 
+## haskell project structure
+
+* Haskeleton: a Haskell project skeleton
+ * http://taylor.fausak.me/2014/03/04/haskeleton-a-haskell-project-skeleton/
+
 ## String
 
+* String types
+ * https://haskell-lang.org/tutorial/string-types
 * Untangling Haskell's Strings
  * https://mmhaskell.com/blog/2017/5/15/untangling-haskells-strings
+* difference between ByteString ByteString.Char8 and normal string?
+ * https://www.reddit.com/r/haskell/comments/4zt8xh/difference_between_bytestring_bytestringchar8_and/
+* A guided tour through the bytestring library
+ * http://meiersi.github.io/HaskellerZ/meetups/2012%2001%2019%20-%20The%20bytestring%20library/slides.html#(1)
 
+* Char -> Unicode charactor
+* String -> [Char] ie. List of Chars, imutable,  arranged in memory as a linked list of characters
+* Text -> internally UTF-16 
+* ByteString -> sequence of bytes, list of Word8
+* Char8.ByteString -> treating a ByteString as if ISO-8859-1 encoded.
+```
+> S8.pack "abc" :: Data.ByteString.Char8.ByteString
+"abc"
+> S8.pack "abc" :: Data.ByteString.ByteString
+"abc"
+```
+* Type Conversion
+```
+        -->  T.pack  -->        --> encodeUtf8 -->        
+String                    Text                      ByteString
+        <-- T.unpack <--        <-- decodeUtf8 <-- 
+
+        -->  C.pack  --> *warning* truncated occured, so .one char -> one byte. 
+String                    ByteString
+        <-- C.unpack <--
+```
+
+* strict vs lazy (.Lazy packates have conversion functions)
+ * toStrict    lazy    -> strict  * expensive
+ * fromStrict  strict  -> lazy
+
+* Builder
+
+* pack ( https://www.haskell.org/hoogle/?hoogle=pack )
+```
+bytestring Data.ByteString       pack :: [Word8] -> ByteString
+bytestring Data.ByteString.Lazy  pack :: [Word8] -> ByteString
+bytestring Data.ByteString.Char8 pack :: String  -> ByteString
+text       Data.Text             pack :: String  -> Text
+text       Data.Text.Lazy        pack :: String  -> Text
+```
 
 ## for all
 
