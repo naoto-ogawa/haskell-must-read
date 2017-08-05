@@ -18,19 +18,19 @@ main = do
      |       |
      Monad   A   X
      |       |   |
-     |       |   +-----=> type of a value produced by monadic operations ; usually somthing "returned"
+     |       |   +-----=> type of a value produced by monadic operations ; usually somtehing "returned", that is, a  bindable value.
      |       |  
      |       +---------=> type of a value handled in  monadic operations ; "contexted value"
      |
-     +---------------- => specify operations in this monad 
+     +---------------- => specify operations in this context 
 
      
-     Monad A X and Monad A Y can be conposable
+     Monad A X and Monad A Y can be composable
      ^^^^^^^       ^^^^^^^
            |             |
            ---------------
 
-     Monad A X and Monad B Y cannot be conposable
+     Monad A X and Monad B Y cannot be composable
      ^^^^^^^       ^^^^^^^
            |             |
            ---------------
