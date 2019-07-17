@@ -1,10 +1,15 @@
 
 ---
 
+## Q : Haskell has a lot of funcy operators, so I am confused.
+
+A : See [Operator Glossary](https://haskell.fpcomplete.com/tutorial/operators)
+
+---
+
 ## Q : How to catch 'error of error function'.
 
 A : https://stackoverflow.com/a/4243402
-
 
 ---
 
